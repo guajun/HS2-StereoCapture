@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B6A7EEC-8806-4246-9EF5-1CB01C3D8156}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StereoCapture</RootNamespace>
+    <AssemblyName>StereoCapture</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\HS2\HoneySelect2\HoneySelect2\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>E:\HS2\HoneySelect2\HoneySelect2\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:\HS2\HoneySelect2\HoneySelect2\StudioNEOV2_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IllusionLibs-master\packaging\HoneySelect2\libraries\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\HS2\HoneySelect2\HoneySelect2\StudioNEOV2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IllusionLibs-master\packaging\HoneySelect2\libraries\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pngcs\Chunks\ChunkCopyBehaviour.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkHelper.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkLoadBehaviour.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkPredicate.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkPredicateEquiv.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkPredicateId.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkPredicateId2.cs" />
+    <Compile Include="Pngcs\Chunks\ChunkRaw.cs" />
+    <Compile Include="Pngcs\Chunks\ChunksList.cs" />
+    <Compile Include="Pngcs\Chunks\ChunksListForWrite.cs" />
+    <Compile Include="Pngcs\Chunks\PngChunk.cs" />
+    <Compile Include="Pngcs\Chunks\PngChunkIDAT.cs" />
+    <Compile Include="Pngcs\Chunks\PngChunkIEND.cs" />
+    <Compile Include="Pngcs\Chunks\PngChunkIHDR.cs" />
+    <Compile Include="Pngcs\Chunks\PngChunkMultiple.cs" />
+    <Compile Include="Pngcs\Chunks\PngChunkSingle.cs" />
+    <Compile Include="Pngcs\Chunks\PngMetadata.cs" />
+    <Compile Include="Pngcs\FileHelper.cs" />
+    <Compile Include="Pngcs\FilterType.cs" />
+    <Compile Include="Pngcs\FilterWriteStrategy.cs" />
+    <Compile Include="Pngcs\ImageInfo.cs" />
+    <Compile Include="Pngcs\ImageLine.cs" />
+    <Compile Include="Pngcs\ImageLineHelper.cs" />
+    <Compile Include="Pngcs\ImageLines.cs" />
+    <Compile Include="Pngcs\PngCsUtils.cs" />
+    <Compile Include="Pngcs\PngHelperInternal.cs" />
+    <Compile Include="Pngcs\PngIDatChunkOutputStream.cs" />
+    <Compile Include="Pngcs\PngjException.cs" />
+    <Compile Include="Pngcs\PngjExceptionInternal.cs" />
+    <Compile Include="Pngcs\PngjOutputException.cs" />
+    <Compile Include="Pngcs\PngjUnsupportedException.cs" />
+    <Compile Include="Pngcs\PngWriter.cs" />
+    <Compile Include="Pngcs\ProgressiveOutputStream.cs" />
+    <Compile Include="Pngcs\Unity\Unity.cs" />
+    <Compile Include="Pngcs\Zlib\Adler32.cs" />
+    <Compile Include="Pngcs\Zlib\AZlibInputStream.cs" />
+    <Compile Include="Pngcs\Zlib\AZlibOutputStream.cs" />
+    <Compile Include="Pngcs\Zlib\CRC32.cs" />
+    <Compile Include="Pngcs\Zlib\DeflateCompressLevel.cs" />
+    <Compile Include="Pngcs\Zlib\EDeflateCompressStrategy.cs" />
+    <Compile Include="Pngcs\Zlib\ZlibInputStreamIs.cs" />
+    <Compile Include="Pngcs\Zlib\ZlibInputStreamMs.cs" />
+    <Compile Include="Pngcs\Zlib\ZlibOutputStreamIs.cs" />
+    <Compile Include="Pngcs\Zlib\ZlibOutputStreamMs.cs" />
+    <Compile Include="Pngcs\Zlib\ZlibStreamFactory.cs" />
+    <Compile Include="Properties\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StereoCapture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StereoCaptureShader\EquirectangularConverter.shader" />
+    <None Include="StereoCaptureShader\EquirectangularConverter.unity3d" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="思路\渲染思路.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

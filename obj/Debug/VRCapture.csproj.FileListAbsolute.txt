@@ -1,7 +1,14 @@
-E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\VRScreenshot.dll
-E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\VRScreenshot.pdb
 F:\HS2NeoVRExport\VRScreenshot\obj\Debug\VRCapture.csproj.AssemblyReference.cache
 F:\HS2NeoVRExport\VRScreenshot\obj\Debug\VRCapture.csproj.CoreCompileInputs.cache
 F:\HS2NeoVRExport\VRScreenshot\obj\Debug\VRCapture.csproj.CopyComplete
 F:\HS2NeoVRExport\VRScreenshot\obj\Debug\VRScreenshot.dll
 F:\HS2NeoVRExport\VRScreenshot\obj\Debug\VRScreenshot.pdb
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.csproj.AssemblyReference.cache
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.csproj.CoreCompileInputs.cache
+E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\VRCapture.dll
+E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\VRCapture.pdb
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.dll
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.pdb
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.csproj.CopyComplete
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.Properties.Resource.resources
+F:\HS2NeoVRExport\VRCapture\obj\Debug\VRCapture.csproj.GenerateResource.cache

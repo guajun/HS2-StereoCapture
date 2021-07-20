@@ -1,10 +1,10 @@
 ﻿namespace Pngcs.Zlib
 {
-	// DEFLATE compression strategy
-	public enum EDeflateCompressStrategy
-	{
-		Filtered,
-		Huffman,
-		Default
-	}
+    // DEFLATE compression strategy
+    internal enum EDeflateCompressStrategy
+    {
+        Filtered,
+        Huffman,
+        Default
+    }
 }

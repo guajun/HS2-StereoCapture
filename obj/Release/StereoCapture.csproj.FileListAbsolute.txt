@@ -1,0 +1,15 @@
+F:\HS2NeoVRExport\VRCapture\obj\Release\StereoCapture.csproj.GenerateResource.cache
+E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\StereoCapture.dll
+E:\HS2\HoneySelect2\HoneySelect2\BepInEx\Plugins\StereoCapture.pdb
+F:\HS2NeoVRExport\VRCapture\obj\Release\StereoCapture.Properties.Resource.resources
+F:\HS2NeoVRExport\VRCapture\obj\Release\StereoCapture.csproj.CoreCompileInputs.cache
+F:\HS2NeoVRExport\VRCapture\obj\Release\StereoCapture.csproj.CopyComplete
+F:\HS2NeoVRExport\VRCapture\obj\Release\StereoCapture.dll
+F:\HS2NeoVRExport\VRCapture\obj\Release\StereoCapture.pdb
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.csproj.AssemblyReference.cache
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.Properties.Resource.resources
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.csproj.GenerateResource.cache
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.csproj.CoreCompileInputs.cache
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.csproj.CopyComplete
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.dll
+F:\HS2NeoVRExport\StereoCapture\obj\Release\StereoCapture.pdb
